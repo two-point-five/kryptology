@@ -17,14 +17,14 @@ import (
 	"github.com/coinbase/kryptology/pkg/core"
 	"github.com/coinbase/kryptology/pkg/core/curves"
 	"github.com/coinbase/kryptology/pkg/paillier"
-	"github.com/coinbase/kryptology/pkg/sharing/v1"
+	v1 "github.com/coinbase/kryptology/pkg/sharing/v1"
 	"github.com/coinbase/kryptology/pkg/tecdsa/gg20/dealer"
 )
 
 // Participant is a tECDSA player that receives information from a trusted dealer
 type Participant struct {
 	dealer.Share
-	sk *paillier.SecretKey
+	Sk *paillier.SecretKey
 }
 
 // Signer is a tECDSA player that holds the additive shares needed for performing the signing operation
@@ -234,7 +234,7 @@ func (p Participant) convertToAdditive(curve elliptic.Curve, publicSharesMap map
 	}
 
 	return &Signer{
-		sk:              p.sk,
+		sk:              p.Sk,
 		share:           privateKeyShare,
 		publicSharesMap: additiveMap,
 		Round:           1,
