@@ -17,10 +17,10 @@ import (
 	"github.com/btcsuite/btcd/btcec"
 	"github.com/stretchr/testify/require"
 
-	"github.com/coinbase/kryptology/internal"
-	"github.com/coinbase/kryptology/pkg/core"
-	"github.com/coinbase/kryptology/pkg/paillier"
-	"github.com/coinbase/kryptology/pkg/tecdsa/gg20/dealer"
+	"github.com/two-point-five/kryptology/internal"
+	"github.com/two-point-five/kryptology/pkg/core"
+	"github.com/two-point-five/kryptology/pkg/paillier"
+	"github.com/two-point-five/kryptology/pkg/tecdsa/gg20/dealer"
 )
 
 func TestConvertToAdditiveWorks(t *testing.T) {

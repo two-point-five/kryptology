@@ -12,8 +12,8 @@ import (
 
 	"git.sr.ht/~sircmpwn/go-bare"
 
-	"github.com/coinbase/kryptology/internal"
-	mod "github.com/coinbase/kryptology/pkg/core"
+	"github.com/two-point-five/kryptology/internal"
+	mod "github.com/two-point-five/kryptology/pkg/core"
 )
 
 type decryptionKeyMarshal struct {

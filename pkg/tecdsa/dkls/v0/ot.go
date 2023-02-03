@@ -15,8 +15,8 @@ import (
 	"io"
 	"math/big"
 
-	"github.com/coinbase/kryptology/pkg/core"
-	"github.com/coinbase/kryptology/pkg/core/curves"
+	"github.com/two-point-five/kryptology/pkg/core"
+	"github.com/two-point-five/kryptology/pkg/core/curves"
 )
 
 type (

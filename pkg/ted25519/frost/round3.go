@@ -9,8 +9,8 @@ package frost
 import (
 	"fmt"
 
-	"github.com/coinbase/kryptology/internal"
-	"github.com/coinbase/kryptology/pkg/core/curves"
+	"github.com/two-point-five/kryptology/internal"
+	"github.com/two-point-five/kryptology/pkg/core/curves"
 )
 
 // Round3Bcast contains the output of FROST signature, i.e., it contains FROST signature (z,c) and the

@@ -12,7 +12,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/coinbase/kryptology/internal"
+	"github.com/two-point-five/kryptology/internal"
 )
 
 var (

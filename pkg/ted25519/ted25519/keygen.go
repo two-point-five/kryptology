@@ -10,8 +10,8 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/coinbase/kryptology/pkg/core/curves"
-	"github.com/coinbase/kryptology/pkg/sharing/v1"
+	"github.com/two-point-five/kryptology/pkg/core/curves"
+	v1 "github.com/two-point-five/kryptology/pkg/sharing/v1"
 )
 
 // PublicKeyFromBytes converts byte array into PublicKey byte array

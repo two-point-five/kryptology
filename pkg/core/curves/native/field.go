@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/coinbase/kryptology/internal"
+	"github.com/two-point-five/kryptology/internal"
 )
 
 // FieldLimbs is the number of limbs needed to represent this field

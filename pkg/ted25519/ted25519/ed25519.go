@@ -22,7 +22,7 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/coinbase/kryptology/pkg/core/curves"
+	"github.com/two-point-five/kryptology/pkg/core/curves"
 )
 
 const (

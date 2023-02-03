@@ -14,13 +14,13 @@ import (
 	"github.com/btcsuite/btcd/btcec"
 	"github.com/stretchr/testify/require"
 
-	tt "github.com/coinbase/kryptology/internal"
-	"github.com/coinbase/kryptology/pkg/core"
-	"github.com/coinbase/kryptology/pkg/core/curves"
-	"github.com/coinbase/kryptology/pkg/paillier"
-	v1 "github.com/coinbase/kryptology/pkg/sharing/v1"
-	"github.com/coinbase/kryptology/pkg/tecdsa/gg20/dealer"
-	"github.com/coinbase/kryptology/pkg/tecdsa/gg20/proof"
+	tt "github.com/two-point-five/kryptology/internal"
+	"github.com/two-point-five/kryptology/pkg/core"
+	"github.com/two-point-five/kryptology/pkg/core/curves"
+	"github.com/two-point-five/kryptology/pkg/paillier"
+	v1 "github.com/two-point-five/kryptology/pkg/sharing/v1"
+	"github.com/two-point-five/kryptology/pkg/tecdsa/gg20/dealer"
+	"github.com/two-point-five/kryptology/pkg/tecdsa/gg20/proof"
 )
 
 func setupDkgRound3ParticipantMap(curve elliptic.Curve, t, n int) map[uint32]*DkgParticipant {
